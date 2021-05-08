@@ -1,0 +1,24 @@
+{
+    "Test (Arrange-Act-Assert)": {
+        "prefix": "tt",
+        "body": [
+            "test('should ', () {",
+            "//Arrange - Setup facts, Put Expected outputs or Initilize\n",
+            "//Act - Call the function that is to be tested\n",
+            "//Assert - Compare the actual result and expected result\n",
+            "});"
+        ],
+        "description": "Define a test"
+    },
+    "Test Async (Arrange-Act-Assert) with async": {
+        "prefix": "tta",
+        "body": [
+            "test('should ', () async {",
+            "//Arrange - Setup facts, Put Expected outputs or Initilize \n",
+            "//Act - Call the function that is to be tested\n",
+            "//Assert - Compare the actual result and expected result\n",
+            "});"
+        ],
+        "description": "Define a test with async body"
+    },
+}
