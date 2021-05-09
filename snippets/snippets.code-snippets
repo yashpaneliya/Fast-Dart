@@ -8,7 +8,7 @@
             "//Assert - Compare the actual result and expected result\n",
             "});"
         ],
-        "description": "Define a test"
+        "description": "Define a Unit test"
     },
     "Test Async (Arrange-Act-Assert) with async": {
         "prefix": "tta",
@@ -19,6 +19,173 @@
             "//Assert - Compare the actual result and expected result\n",
             "});"
         ],
-        "description": "Define a test with async body"
+        "description": "Define a Unit test with async body"
+    },
+    "Group for testing":{
+        "prefix": "grp",
+        "body": [
+            "group('${1:groupName}', () {",
+            "// write tests",
+            "});",
+        ],
+        "description": "Define group for Unit testing",
+    },
+    "Try On Block": {
+        "prefix": "ton",
+        "body": [
+            "try {",
+            "// write code which might give exceptions",
+            "} on ${1:exceptionType} {",
+            "// handle exceptions here",
+            "}"
+        ],
+        "description": "try-on block"
+    },
+    "Try Catch Block": {
+        "prefix": "tc",
+        "body": [
+            "try { ",
+            "// write code which might give exceptions",
+            "} catch (exception) {",
+            "  print(exception.toString());",
+            "}"
+        ],
+        "description": "try-catch block"
+    },
+    "Try-On-Catch Block": {
+        "prefix": "toc",
+        "body": [
+            "try { ",
+            "// write code which might give exceptions",
+            "} on ${1:exceptionType} {",
+            "// handle exceptions here",
+            "} catch(exception) {",
+            "  print(exception.toString());",
+            "}"
+        ],
+        "description": "try-on-catch block"
+    },
+    "Try-On-Catch-Finally Block": {
+        "prefix": "tocf",
+        "body": [
+            "try { ",
+            "// write code which might give exceptions",
+            "} on ${1:exceptiontype} {",
+            "// handle exceptions here",
+            "} catch(exception) {",
+            "  print(exception);",
+            "} finally {",
+            "// finally block",
+            "}",
+        ],
+        "description": "try-on-catch-finally block"
+    },
+    "Function definition": {
+        "prefix": "fun",
+        "body": [
+            "${1:returnType} ${2:functionName}(List args) {",
+            "return Null;",
+            "}"
+        ],
+        "description": "Function definition"
+    },
+    "Async Function definition": {
+        "prefix": "afun",
+        "body": [
+            "${1:returnType} ${2:functionName}(List args) async {",
+            "return Null;",
+            "}"
+        ],
+        "description": "Async Function definition"
+    },
+    "if Block": {
+        "prefix": "if",
+        "body": [
+            "if (${1:}) {",
+            "/// if expression is true ",
+            "}"
+        ]
+    },
+    "if-else Block": {
+        "prefix": "ie",
+        "body": [
+            "if (${1:}) {",
+            "/// if expression is true ",
+            "} else {",
+            "/// else part",
+            "}"
+        ]
+    },
+    "1-else-if ladder Block": {
+        "prefix": "i1e",
+        "body": [
+            "if (${1:}) {",
+            "/// if [first] condition is true ",
+            "} else if(${2:}) {",
+            "/// if [second] condition is true",
+            "} else {",
+            "/// else part",
+            "}"
+        ],
+        "description": "One else-if ladder"
+    },
+    "2-else-if ladder Block": {
+        "prefix": "i2e",
+        "body": [
+            "if (${1:}) {",
+            "/// if [first] condition is true ",
+            "} else if(${2:}) {",
+            "/// if [second] condition is true",
+            "} else if(${3:}) {",
+            "/// if [third] condition is true",
+            "} else {",
+            "/// else part",
+            "}"
+        ],
+        "description": "Two else-if ladder"
+    },
+    "3-else-if ladder Block": {
+        "prefix": "i2e",
+        "body": [
+            "if (${1:}) {",
+            "/// if [first] condition is true ",
+            "} else if(${2:}) {",
+            "/// if [second] condition is true",
+            "} else if(${3:}) {",
+            "/// if [third] condition is true",
+            "} else if(${4:}) {",
+            "/// if [fourth] condition is true",
+            "} else {",
+            "/// else part",
+            "}"
+        ],
+        "description": "Three else-if ladder"
+    },
+    "Class definition":{
+        "prefix": "cls",
+        "body": [
+            "class ${1:} {",
+            "\nconst ${1:}();",
+            "}",
+        ],
+        "description": "Create a Class",
+    },
+    "Inherited Class definition":{
+        "prefix": "cle",
+        "body": [
+            "class ${1:} extends ${2:} {",
+            "\n  const ${1:}();",
+            "}",
+        ],
+        "description": "Create a Inherited Class",
+    },
+    "Class definition with extends and implements":{
+        "prefix": "clei",
+        "body": [
+            "class ${1:} extends ${2:} implements ${3:}{",
+            "\nconst ${1:}();",
+            "}",
+        ],
+        "description": "Create a Class which extends and implements class",
     },
 }
