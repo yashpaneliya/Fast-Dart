@@ -39,7 +39,7 @@
             "// handle exceptions here",
             "}"
         ],
-        "description": "try-on block"
+        "description": "Create a try-on block to handle specific exception"
     },
     "Try Catch Block": {
         "prefix": "tc",
@@ -50,7 +50,7 @@
             "  print(exception.toString());",
             "}"
         ],
-        "description": "try-catch block"
+        "description": "Create a try-catch block to use exception object"
     },
     "Try-On-Catch Block": {
         "prefix": "toc",
@@ -63,7 +63,7 @@
             "  print(exception.toString());",
             "}"
         ],
-        "description": "try-on-catch block"
+        "description": "Create a try-on-catch block to handle specific exception and use exception object"
     },
     "Try-On-Catch-Finally Block": {
         "prefix": "tocf",
@@ -78,7 +78,7 @@
             "// finally block",
             "}",
         ],
-        "description": "try-on-catch-finally block"
+        "description": "Create a try-on-catch-finally block"
     },
     "Function definition": {
         "prefix": "fun",
@@ -87,7 +87,7 @@
             "return Null;",
             "}"
         ],
-        "description": "Function definition"
+        "description": "Define user defined function"
     },
     "Async Function definition": {
         "prefix": "afun",
@@ -96,7 +96,7 @@
             "return Null;",
             "}"
         ],
-        "description": "Async Function definition"
+        "description": "Define a user defined async function"
     },
     "if Block": {
         "prefix": "if",
@@ -104,7 +104,8 @@
             "if (${1:}) {",
             "/// if expression is true ",
             "}"
-        ]
+        ],
+        "description": "Create a simple if decision maker"
     },
     "if-else Block": {
         "prefix": "ie",
@@ -114,7 +115,8 @@
             "} else {",
             "/// else part",
             "}"
-        ]
+        ],
+        "description": "Create an if-else block"
     },
     "1-else-if ladder Block": {
         "prefix": "i1e",
@@ -145,7 +147,7 @@
         "description": "Two else-if ladder"
     },
     "3-else-if ladder Block": {
-        "prefix": "i2e",
+        "prefix": "i3e",
         "body": [
             "if (${1:}) {",
             "/// if [first] condition is true ",
@@ -168,7 +170,7 @@
             "\nconst ${1:}();",
             "}",
         ],
-        "description": "Create a Class",
+        "description": "Define a simple class",
     },
     "Inherited Class definition":{
         "prefix": "cle",
@@ -177,7 +179,7 @@
             "\n  const ${1:}();",
             "}",
         ],
-        "description": "Create a Inherited Class",
+        "description": "Define a class which extends another class",
     },
     "Class definition with extends and implements":{
         "prefix": "clei",
@@ -186,6 +188,6 @@
             "\nconst ${1:}();",
             "}",
         ],
-        "description": "Create a Class which extends and implements class",
+        "description": "Define a class which extends another class and implements some classes",
     },
 }
