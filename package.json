@@ -2,7 +2,7 @@
     "name": "fast-dart",
     "displayName": "Fast Dart",
     "description": "Code faster in Dart language with the help of some prewritten code snippets.",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "engines": {
         "vscode": "^1.56.0"
     },
@@ -10,11 +10,9 @@
         "Snippets"
     ],
     "contributes": {
-        "snippets": [
-            {
-                "language": "dart",
-                "path": "./snippets/snippets.code-snippets"
-            }
-        ]
+        "snippets": [{
+            "language": "dart",
+            "path": "./snippets/snippets.code-snippets"
+        }]
     }
 }
