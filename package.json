@@ -2,7 +2,9 @@
     "name": "fast-dart",
     "displayName": "Fast Dart",
     "description": "Code faster in Dart language with the help of some prewritten code snippets.",
+    "icon": "images/fast-dart-logo.png",
     "version": "1.0.0",
+    "publisher": "YashPaneliya",
     "engines": {
         "vscode": "^1.56.0"
     },

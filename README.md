@@ -36,4 +36,6 @@ If you find any bug or want a new snippet, do create an issue or submitting a PR
 
 ## Release Notes
 
-Almost ready to release...
+**1.0.0**
+
+Initial release of Fast Dart 
