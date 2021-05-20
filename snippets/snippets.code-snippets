@@ -191,7 +191,7 @@
         "description": "Define a class which extends another class and implements some classes",
     },
     "For Loop block": {
-        "prefix": "fl",
+        "prefix": "for",
         "body": [
             "for ( var ${1:var_name} = ${2:} ; ${1:} ${3:<} ${4:} ; ${1:}${5:++} ){",
             "/// Enter For Loop Body",
@@ -200,7 +200,7 @@
         "description": "Create a For-Loop Block",
     },
     "For In Loop  block": {
-        "prefix": "finl",
+        "prefix": "fin",
         "body": [
             "for ( var ${1:var_name} in ${2:} ){",
             "/// Enter For_In Loop Body",
@@ -209,7 +209,7 @@
         "description": "Create a For_In-Loop Block",
     },
     "while Loop block": {
-        "prefix": "wl",
+        "prefix": "while",
         "body": [
             "var ${1:var_name} = ${2:} ;",
             "while( ${1:} ${3:<} ${4:} )///condition",
@@ -220,7 +220,7 @@
         "description": "Create a While-Loop Block",
     },
     "Do while Loop block": {
-        "prefix": "dwl",
+        "prefix": "do",
         "body": [
             "var ${1:var_name} = ${2:};",
             "do{",
