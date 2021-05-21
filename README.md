@@ -21,10 +21,10 @@
   |`if`| Simple If | Create a simple if decision maker |
   |`ie`| If-Else | Create an if-else block |
   |`i$e` $=1,2,3 | else-if ladder |  Create else-if ladder with 1/2/3 else if |
-  |`for`| Simple For Loop | Create an for loop block |
-  |`fin`| For...in Loop | Create an for...in loop block |
-  |`while`| Simple While Loop | Create an while loop block |
-  |`do`| Simple Do While Loop |Create an do-while loop block |
+  |`for`| Simple For Loop | Create a for loop block |
+  |`fin`| For...in Loop | Create a for...in loop block |
+  |`while`| Simple While Loop | Create a while loop block |
+  |`do`| Simple Do While Loop |Create a do-while loop block |
   |`cls`| Class | Define a simple class |
   |`cle`| Inherited Class | Define a class which extends another class |
   |`clei`| Extend and Implement classes | Define a class which extends another class and implements some classes |
