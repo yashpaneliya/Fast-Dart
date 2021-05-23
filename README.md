@@ -1,4 +1,8 @@
-# Fast-Dart README
+# Fast-Dart 
+
+![](https://vsmarketplacebadge.apphb.com/version-short/YashPaneliya.fast-dart.svg?color=blue)
+![](https://vsmarketplacebadge.apphb.com/installs/YashPaneliya.fast-dart.svg?color=red)
+![](https://vsmarketplacebadge.apphb.com/rating-short/YashPaneliya.fast-dart.svg)
 
 **Fast Dart** is a VS code extension for Dart language snippets to save your precious time. This extension contains some cool spells to speed up your development by providing code snippets and boilerplates 🚀
 
@@ -39,6 +43,10 @@ No issues till now 😁
 If you find any bug or want a new snippet, do create an issue or submitting a PR will be awesome!!
 
 ## Release Notes
+
+**1.0.1**
+
+  - Loops snippets added
 
 **1.0.0**
 

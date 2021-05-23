@@ -3,10 +3,23 @@
     "displayName": "Fast Dart",
     "description": "Code faster in Dart language with the help of some prewritten code snippets.",
     "icon": "images/fast-dart-logo.png",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "YashPaneliya",
     "engines": {
         "vscode": "^1.56.0"
+    },
+    "keywords": [
+        "Flutter",
+        "Dart",
+        "Snippets"
+    ],
+    "homepage": "https://github.com/yashpaneliya/Fast-Dart",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yashpaneliya/Fast-Dart.git"
+    },
+    "bugs": {
+        "url": "https://github.com/yashpaneliya/Fast-Dart/issues"
     },
     "categories": [
         "Snippets"
