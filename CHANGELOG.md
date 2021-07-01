@@ -2,8 +2,17 @@
 
 All notable changes to the "fast-dart" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [Changes]
 
-## [Unreleased]
+**1.0.2**
+  
+  - Vanished unnecessary comments
+  - Ternary operator added
 
-- Initial release
+**1.0.1**
+
+  - Loops snippets added
+
+**1.0.0**
+
+  - Initial release of Fast Dart 

@@ -32,6 +32,7 @@
   |`cls`| Class | Define a simple class |
   |`cle`| Inherited Class | Define a class which extends another class |
   |`clei`| Extend and Implement classes | Define a class which extends another class and implements some classes |
+  |`ternary`| Ternary Operator | Simple ternary operator ( ? : ) |
   
 ## Requirements
 
@@ -44,10 +45,15 @@ If you find any bug or want a new snippet, do create an issue or submitting a PR
 
 ## Release Notes
 
+**1.0.2**
+  
+  - Vanished unnecessary comments
+  - Ternary operator added
+
 **1.0.1**
 
   - Loops snippets added
 
 **1.0.0**
 
-Initial release of Fast Dart 
+  - Initial release of Fast Dart 

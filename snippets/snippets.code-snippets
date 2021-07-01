@@ -34,9 +34,9 @@
         "prefix": "ton",
         "body": [
             "try {",
-            "// write code which might give exceptions",
+            "${1:}",
             "} on ${1:exceptionType} {",
-            "// handle exceptions here",
+            "",
             "}"
         ],
         "description": "Create a try-on block to handle specific exception"
@@ -45,7 +45,7 @@
         "prefix": "tc",
         "body": [
             "try { ",
-            "// write code which might give exceptions",
+            "${1:}",
             "} catch (exception) {",
             "  print(exception.toString());",
             "}"
@@ -56,9 +56,9 @@
         "prefix": "toc",
         "body": [
             "try { ",
-            "// write code which might give exceptions",
+            "",
             "} on ${1:exceptionType} {",
-            "// handle exceptions here",
+            "",
             "} catch(exception) {",
             "  print(exception.toString());",
             "}"
@@ -69,13 +69,13 @@
         "prefix": "tocf",
         "body": [
             "try { ",
-            "// write code which might give exceptions",
+            "",
             "} on ${1:exceptiontype} {",
-            "// handle exceptions here",
+            "",
             "} catch(exception) {",
             "  print(exception);",
             "} finally {",
-            "// finally block",
+            "",
             "}",
         ],
         "description": "Create a try-on-catch-finally block"
@@ -102,7 +102,7 @@
         "prefix": "if",
         "body": [
             "if (${1:}) {",
-            "/// if expression is true ",
+            "",
             "}"
         ],
         "description": "Create a simple if decision maker"
@@ -111,9 +111,9 @@
         "prefix": "ie",
         "body": [
             "if (${1:}) {",
-            "/// if expression is true ",
+            "",
             "} else {",
-            "/// else part",
+            "",
             "}"
         ],
         "description": "Create an if-else block"
@@ -122,11 +122,11 @@
         "prefix": "i1e",
         "body": [
             "if (${1:}) {",
-            "/// if [first] condition is true ",
+            "",
             "} else if(${2:}) {",
-            "/// if [second] condition is true",
+            "",
             "} else {",
-            "/// else part",
+            "",
             "}"
         ],
         "description": "One else-if ladder"
@@ -135,13 +135,13 @@
         "prefix": "i2e",
         "body": [
             "if (${1:}) {",
-            "/// if [first] condition is true ",
+            "",
             "} else if(${2:}) {",
-            "/// if [second] condition is true",
+            "",
             "} else if(${3:}) {",
-            "/// if [third] condition is true",
+            "",
             "} else {",
-            "/// else part",
+            "",
             "}"
         ],
         "description": "Two else-if ladder"
@@ -150,15 +150,15 @@
         "prefix": "i3e",
         "body": [
             "if (${1:}) {",
-            "/// if [first] condition is true ",
+            "",
             "} else if(${2:}) {",
-            "/// if [second] condition is true",
+            "",
             "} else if(${3:}) {",
-            "/// if [third] condition is true",
+            "",
             "} else if(${4:}) {",
-            "/// if [fourth] condition is true",
+            "",
             "} else {",
-            "/// else part",
+            "",
             "}"
         ],
         "description": "Three else-if ladder"
@@ -194,7 +194,7 @@
         "prefix": "for",
         "body": [
             "for ( var ${1:var_name} = ${2:} ; ${1:} ${3:} ; ${1:}${4:} ){",
-            "/// Enter For Loop Body",
+            "",
             "}"
         ],
         "description": "Create a For-Loop Block",
@@ -203,7 +203,7 @@
         "prefix": "fin",
         "body": [
             "for ( var ${1:var_name} in ${2:arry_var} ){",
-            "/// Enter For_In Loop Body",
+            "",
             "}"
         ],
         "description": "Create a For_In-Loop Block",
@@ -211,8 +211,8 @@
     "while Loop block": {
         "prefix": "while",
         "body": [
-            "while( ${1:condition} )",
-            "/// While Loop Body",
+            "while( ${1:condition} ){",
+            "",
             "}"
         ],
         "description": "Create a While-Loop Block",
@@ -221,9 +221,16 @@
         "prefix": "do",
         "body": [
             "do{",
-            "/// Do While Loop Body",
+            "",
             "}while( ${1:condition} );",
         ],
         "description": "Create a Do While Loop Block",
     },
+    "Ternary Operator":{
+        "prefix": "ternary",
+        "body": [
+            "(${1:}) ? :",
+        ],
+        "description": "Ternary Operator",
+    }
 }
